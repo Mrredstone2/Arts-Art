@@ -13,6 +13,9 @@ body{
     border-radius: 10px;
     min-height: 500px;
 }
+.body{
+    text-align: center;
+}
 .topnav {
     overflow: hidden;
     background-color: #333;
