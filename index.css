@@ -16,6 +16,37 @@ body{
 .body{
     text-align: center;
 }
+.art{
+    width: 70%;
+    padding: 10px;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    margin: 2px 2px;
+    animation: expand 0.6s;
+    border-radius: 25%;
+    width:auto;
+    height: 20px;
+}
+@keyframes expand {
+    from{width:20px;}
+    to{width:auto;}
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa p {display: none; position:static; white-space: nowrap;}
+.fa:hover p {display:inline-block;}
 .topnav {
     overflow: hidden;
     background-color: #333;
