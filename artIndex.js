@@ -1,7 +1,7 @@
 function artList(){
 
     
-    return [{"Name":"Test1", "File": "Test.png", "Discription": "A test piece of work."}]
+    return [{"Name":"Test3", "File": "test.png", "Discription": "A test piece of work."},{"Name":"Test2", "File": "test.png", "Discription": "A test piece of work."}]
     
     
 }
