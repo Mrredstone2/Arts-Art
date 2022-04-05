@@ -1,4 +1,4 @@
-import {artList} from './artIndex.js';
+import {artList} from '/artIndex.js';
 
 
 var artlist = artList();
